@@ -29,11 +29,11 @@ if __name__ == '__main__':
 
 		imgs_paths = glob('%s/*car.png' % input_dir)
 
-		print 'Searching for license plates using WPOD-NET'
+		print('Searching for license plates using WPOD-NET')
 
 		for i,img_path in enumerate(imgs_paths):
 
-			print '\t Processing %s' % img_path
+			print('\t Processing %s' % img_path)
 
 			bname = splitext(basename(img_path))[0]
 			Ivehicle = cv2.imread(img_path)
