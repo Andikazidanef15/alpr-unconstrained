@@ -46,7 +46,7 @@ if __name__ == '__main__':
 
 			R = [r for r in R if r[0].decode() in ['car','bus']]
 
-			print '\t\t%d cars found' % len(R)
+			print('\t\t%d cars found' % len(R))
 
 			if len(R):
 
